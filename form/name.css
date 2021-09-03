@@ -3,3 +3,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.container{
+      width: 50%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgb(7, 7, 7);
+    margin: 12% auto;
+    padding: 70px 0;
+    border-bottom: 0 0 20px rgb(0, 0, 0, 0.5);
+    opacity: 0.6;
+    border-radius: 20px;
+}
