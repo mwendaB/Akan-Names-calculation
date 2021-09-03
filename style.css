@@ -1,8 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body{
     background-image: url("images/landingpage.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
+
 .name{
     width: auto;
     text-align: center;
@@ -26,6 +33,12 @@ body{
     font-size: x-large;
 
 }
+.btn{
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: -12%;
+}
 .button{
     text-decoration: none;
     font-size: 1.25rem;
@@ -37,6 +50,11 @@ body{
     color: #fff;
     background: #000;
     border-radius: 20px;
-    box-shadow: 4px 10px 30px;
     
+    
+}
+.button:hover{
+    background: yellow;
+    color: black;
+    transition: 0.78s;
 }
