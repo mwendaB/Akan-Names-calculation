@@ -3,3 +3,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.name{
+    width: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+    background: rgb(7, 7, 7);
+    margin: 12% auto;
+    padding: 70px 0;
+    
+    border-bottom: 0 0 20px rgb(0, 0, 0, 0.5);
+    opacity: 0.6;
+    border-radius: 20px;
+}
+.name h1{
+  
+}
