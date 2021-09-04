@@ -58,6 +58,11 @@ label{
     border-radius: 20px;
     
 }
+.btn1 :hover{
+    background: black;
+    color: white;
+    transition: 0.78s;
+}
 #display {
     font-size: larger;
     color: aliceblue;
