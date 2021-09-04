@@ -11,7 +11,7 @@ var yy=parseInt(year)
 
 var cc=(yy-1)/100+1;
 
-var result=parseInt( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) 
+var result=parseInt( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7;
 
 var maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
@@ -25,12 +25,13 @@ else{
     var gender='female';
 
 }
-if (dd<1 || dd>31){
+if (dd<1 || dd>31)
+{
     alert("invalid date");
 
 }
 
-if(mm<1 || mm12 || mm==2 && dd>29) 
+if(mm<1 || mm>12 || mm==2 && dd>29) 
 {
 
     alert("invalid month")
