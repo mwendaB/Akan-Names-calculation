@@ -11,11 +11,10 @@ var yy=parseInt(year)
 
 var cc=(yy-1) / 100 + 1;
 
-var result=parseInt( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7;
-
-
 var maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+
+var result=parseInt( ( (cc / 4) -2*yy-1) + ((5*yy/4) ) + ( ( 26 * ( mm + 1 ) / 10 )) + dd ) %7;
 
 
 if (document.getElementById("gender").checked){
@@ -33,7 +32,7 @@ if (dd < 1 || dd > 31)
 
 }
 
-if(mm < 1 || mm >12 || (mm == 2 && dd > 29))
+if(mm < 1 || mm > 12 || (mm === 2 && dd > 29))
 {
 
     alert("invalid month")
@@ -42,7 +41,7 @@ if(mm < 1 || mm >12 || (mm == 2 && dd > 29))
 // male names selector
 
 {
-    if(Math.round(result)==1 && gender=='male');
+ if(Math.round(result)==1 && gender== "male");
 
 }
 {
@@ -70,7 +69,7 @@ else if (Math.round(result)==6 && gender==='male')
 }
 else if (Math.round(result)==0 && gender==='male')
 {
-  document.getElementById("display").innerHTML = ("you were born on Sunday,your akan name is "+ maleName[0]);
+  document.getElementById("display").innerHTML = ("you were born on Sunday,your akan name is "+ maleName[1]);
 }
 // female names selector
 else if (Math.round(result)==1 && gender==='female')
@@ -93,8 +92,13 @@ else if (Math.round(result)==0 && gender==='female')
 {
   document.getElementById("display").innerHTML =  ("you were born on Sunday,your akan name is "+ femaleName[1]);
 }
-else{
- alert("Input valid  data please");
-}
+
+ else  {
+    alert("Input valid  data please");
+ }
+    
 
 }
+
+
+
