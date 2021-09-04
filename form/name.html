@@ -11,40 +11,42 @@
     <div class="container">
         <h3>Fill The Form With Your Details!!</h3>
       <form> 
-          <div>
-            <label>Date </label>
-            <input type="number" placeholder="Date of Birth" min="1" max="31">
+          <div class="form1">
+            <label for="date">Date Of Birth: </label>
+            <input type="number" class="input" placeholder="Date of Birth" >
           </div>
          
-          <div>
-            <label >Month</label>
-            <input type="number" placeholder="month" min="1" max="12">
+          <div class="form1">
+            <label for="month">Month:</label>
+            <input type="number" class="input" placeholder="month">
           </div>
-          <div>
-            <label>Year</label>
-            <input type="number" placeholder="year" min="1901">
+          <div class="form1">
+            <label for="year">Year:</label>
+            <input type="number" class="input" placeholder="year" min="1901">
           </div>
 
           <div>
-            Gender 
-            <div>
+           <p> Gender </p> 
+            
+            <div class="gender">
                 <input type="radio" name="gender" id="male" value="male">
                 <label for="male">Male</label>
             </div>
 
-            <div>
+            <div class="gender">
                 
                 <input type="radio" name="gender" id="female" value="female">
                 <label for="female">Female</label>
             </div>
 
           </div>
-           <input type="submit" name="submit">
+           
 
       </form>
+      <input type="submit" name="submit" class="button">
             </div>
 
-
+  <script src="../script.js"></script>
 
             </body>
             </html>

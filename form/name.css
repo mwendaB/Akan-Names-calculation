@@ -1,7 +1,14 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+  
+}
 body{
     background-image: url("../images/background1.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .container{
       width: 50%;
@@ -11,12 +18,43 @@ body{
     background: rgb(7, 7, 7);
     margin: 12% auto;
     padding: 70px 0;
-    border-bottom: 0 0 20px rgb(0, 0, 0, 0.5);
-    opacity: 0.6;
+    opacity: 0.9;
     border-radius: 20px;
+    border: solid black;
 }
-.form{
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 30px;
+
+form{
+    margin: 20px auto;
+
+}
+.form1{
+   
+    line-height: 3.5rem;
+}
+.input{
+    width: 95%;
+    height: 20px;
+    padding: 10px;
+    color: aliceblue solid;
+    font-size: 1rem;
+}
+label{
+  font-size: large;
+
+}
+.gender{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.button{
+ 
+    font-size: 1.25rem;
+    width: 100px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: yellowgreen;
+    border-radius: 20px;
+    
 }
