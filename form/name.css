@@ -62,3 +62,11 @@ label{
     font-size: larger;
     color: aliceblue;
 }
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    
+    height: 50px;
+    
+}
