@@ -1,4 +1,4 @@
-
+function submition(){
 
 var day=document.getElementById("day").value;
 var dd=parseInt(day)
@@ -66,4 +66,4 @@ else if (Math.round(result)==0 && gender==='male')
 }
 
 
-
+}
