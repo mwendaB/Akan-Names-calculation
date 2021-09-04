@@ -16,7 +16,7 @@ var result=parseInt( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %
 var maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
-if (document.getElementById("gender").checked){
+if (document.getElementById("gender").male){
 
     var gender='male';
 }
@@ -67,7 +67,7 @@ else if (Math.round(result)==6 && gender==='male')
 }
 else if (Math.round(result)==0 && gender==='male')
 {
-  document.getElementById("display").innerHTML = ("you were born on Sunday,your akan name is "+ maleName[0]);
+  document.getElementById("display").innerHTML = ("you were born on Sunday,your akan name is "+ maleName[1]);
 }
 // female names selector
 else if (Math.round(result)==1 && gender==='female')
@@ -88,11 +88,11 @@ else if (Math.round(result)==6 && gender==='female')
 }
 else if (Math.round(result)==0 && gender==='female')
 {
-  document.getElementById("display").innerHTML =  ("you were born on Sunday,your akan name is "+ femaleNames[0]);
+  document.getElementById("display").innerHTML =  ("you were born on Sunday,your akan name is "+ femaleNames[1]);
 }
 else
 {
- alert("input data please");
+ alert("input valid  data please");
 }
 
 }
