@@ -10,31 +10,38 @@
 <body>
     <div class="container">
         <h3>Fill The Form With Your Details!!</h3>
-       <form class="form">
-         <div class="form1">
-             <label for="date">Date of birth:</label>
-             <input type="number" class="holder" id="day" placeholder="Date; ie 1">
-         </div>
+      <form> 
+          <div>
+            <label>Date </label>
+            <input type="number" placeholder="Date of Birth" min="1" max="31">
+          </div>
+         
+          <div>
+            <label >Month</label>
+            <input type="number" placeholder="month" min="1" max="12">
+          </div>
+          <div>
+            <label>Year</label>
+            <input type="number" placeholder="year" min="1901">
+          </div>
 
-         <div class="form1">
-            <label for="month">Date of birth:</label>
-            <input type="number" class="holder" id="month" placeholder="Month">
-        </div>
+          <div>
+            Gender 
+            <div>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+            </div>
 
-        <div class="form1">
-            <label for="year">Date of birth:</label>
-            <input type="number" class="holder" id="year" placeholder="Year">
-        </div>
+            <div>
+                
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
 
-       <div class="form1">
-           <label for="Gender">Gender</label>
-           <br>
-           <div class="checklist"></div>
-           <div class="checklist"></div>
-       </div>
+          </div>
+           <input type="submit" name="submit">
 
-
-       </form>
+      </form>
             </div>
 
 
