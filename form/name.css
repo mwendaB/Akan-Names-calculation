@@ -55,10 +55,11 @@ label{
     align-items: center;
     color: black;
     background: yellowgreen;
+    text-decoration: none;
     border-radius: 20px;
     
 }
-.btn1 :hover{
+.btn1:hover{
     background: black;
     color: white;
     transition: 0.78s;

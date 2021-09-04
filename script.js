@@ -9,7 +9,7 @@ var mm=parseInt(month)
 var year=document.getElementById("year").value;
 var yy=parseInt(year)
 
-var cc=(yy-1)/100+1;
+var cc=(yy-1) / 100 + 1;
 
 var result=parseInt( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7;
 
@@ -44,7 +44,8 @@ if(mm < 1 || mm >12 || (mm == 2 && dd > 29))
 {
     if(Math.round(result)==1 && gender=='male');
 
-}{
+}
+{
     document.getElementById("display").innerHTML=("you were born on Monday ,your akan name is "+ maleName[1]);
 }
 if (Math.round(result)==2 && gender==='male')
