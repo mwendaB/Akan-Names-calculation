@@ -1,6 +1,6 @@
 # AKAN NAMES
 
-#### Birthday calculator
+#### Birthday Name calculator
 
 
 #### Author
@@ -30,7 +30,7 @@ you can contact me on my email; brianmwenda255@gmail.com .
 ### Live Site
 [sketch](https://www.figma.com/file/iYtRpW0zrLgPZd2KmaRztY/Untitled?node-id=0%3A1).
 
-[LIVE LINK]()
+[LIVE LINK](https://mwendab.github.io/Akan-Names-calculation/)
 
 ### Licence
 This project is under the  [MIT](LICENSE) licence:<br>
