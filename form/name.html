@@ -13,16 +13,16 @@
       <form> 
           <div class="form1">
             <label for="date">Date Of Birth: </label>
-            <input type="number" class="input" placeholder="Date of Birth" >
+            <input type="number"  class="input" placeholder="Date of Birth" id="day">
           </div>
          
           <div class="form1">
             <label for="month">Month:</label>
-            <input type="number" class="input" placeholder="month">
+            <input type="number" class="input" placeholder="month" id="month">
           </div>
           <div class="form1">
             <label for="year">Year:</label>
-            <input type="number" class="input" placeholder="year" min="1901">
+            <input type="number" class="input" placeholder="year" min="1901" id="year">
           </div>
 
           <div>
@@ -43,7 +43,7 @@
            
 
       </form>
-      <input type="submit" name="submit" class="button">
+      <input type="submit" name="submit" class="button" onclick="submition()">
             </div>
 
   <script src="../script.js"></script>
