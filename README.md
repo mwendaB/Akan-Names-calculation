@@ -12,16 +12,16 @@ Akan Name calculator is way of finding out your ghania name correctly.
 ## Setup/Installation Requirements
  Inorder to acces the project in your local files, you can clone it in these simple steps:
 
-1.Open your terminal.
-1.use this command to clone '$ git clone https://github.com/mwendaB/Akan-Names-calculation
+1.Open your terminal. <br>
+2.use this command to clone '$ git clone https://github.com/mwendaB/Akan-Names-calculation <br>
 3.This will clone the repository in your local folder
 
 ## Known Bugs
 when blank and you click the submit button text is displayed appers
 ## Technologies Used
-1.HTML(Hypertext Mark-up Language).
-1.CSS(cascading Style Sheet).
-1.JS(Javascript).
+1.HTML(Hypertext Mark-up Language)<br>
+2.CSS(cascading Style Sheet). <br>
+3.JS(Javascript).
 
 
 ## Support and contact details
