@@ -13,12 +13,12 @@
       <form> 
           <div class="form1">
             <label for="date">Date Of Birth: </label>
-            <input type="number"  class="input" placeholder="Date of Birth" id="day" min="1" max="31">
+            <input type="number"  class="input" placeholder="Date of Birth" id="day" >
           </div>
          
           <div class="form1">
             <label for="month">Month:</label>
-            <input type="number" class="input" placeholder="month" id="month" min="0" max="12">
+            <input type="number" class="input" placeholder="month" id="month" >
           </div>
           <div class="form1">
             <label for="year">Year:</label>
@@ -30,7 +30,7 @@
             
             <div class="radio-group">
                 <label >
-                  <input type="radio" value="male" name="gender" id="gender" >
+                  <input type="radio" value="male" name="gender" id="gender" checked>
                   male 
                   <span></span>
                 </label>
@@ -46,8 +46,11 @@
          
       </form>
       <input type="submit" name="submit" class="btn1" onclick="submition(); return false">
-      <p id="display"></p>
-            </div>
+      
+        <p id="display"></p>
+      </div>
+      
+          
 
   <script src="../script.js"></script>
 
